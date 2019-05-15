@@ -20,12 +20,14 @@ fields:
 # root placeholder names are defined in the package.json config section (required for Sitecore deployment)
 placeholders:
   jss-main:
+  - componentName: HeadlineTitleBanner
+    fields:
+      heading: RapidSiteCoreJSS
   - componentName: ThemeToggle
     fields:
       heading: Hello, world!
   - componentName: ContentBlock
     fields:
-      heading: Welcome to Sitecore JSS
       # to author content in YAML, use _multi-line values_ (prefixed with | + endline)
       # as long as the same indent is preserved at the beginning of each line, no escaping
       # is required at all in the value, making it easy to read
