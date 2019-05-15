@@ -19,10 +19,27 @@ fields:
 # Define the page layout starting at the root placeholder - in this case, 'jss-main'
 # root placeholder names are defined in the package.json config section (required for Sitecore deployment)
 placeholders:
+  jss-header:
+      - componentName: LogoComponent
+        fields:
+          imageFields:
+            src: /data/media/img/jss_logo.png
+            alt: Sitecore Logo
+      - componentName: NavigationComponent
+        fields:
+          title: "Test"
   jss-main:
-  - componentName: HeadlineTitleBanner
-    fields:
-      heading: RapidSiteCoreJSS
+
+
+  jss-footer:
+
+    
+  # - componentName: HeadlineTitleBanner
+  #   fields:
+  #     heading: RapidSiteCoreJSS
+  # - componentName: ThemeToggle
+  #   fields:
+  #     heading: Hello, world!
   # - componentName: ImageComponent
   #   fields:
   #     title: Welcome to Image Component
@@ -40,8 +57,5 @@ placeholders:
   #   fields:
   #     heading: Rich Text Editor Example
   #     body: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-  # - componentName: LogoComponent
-  #   fields:
-  #     imageFields:
-  #       src: /data/media/img/jss_logo.png
-  #       alt: Sitecore Logo
+  #   jss-footer:
+
