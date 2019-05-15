@@ -1,6 +1,7 @@
 const path = require('path');
 const env = require('@babel/preset-env');
 const reactApp = require('babel-preset-react-app');
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 // Webpack build configuration to build the SSR bundle.
 // Invoked by build:server.
 
@@ -53,6 +54,24 @@ module.exports = {
           loader: 'null-loader',
         },
       },
+      {
+        test: /\.styl$/,
+        use: [
+            'css-hot-loader',
+            MiniCssExtractPlugin.loader,
+            'css-loader',
+            'stylus-loader?resolve url'
+        ],
+        exclude: /node_modules/
+    },
     ],
   },
+  plugin: {
+    rules: [
+      new MiniCssExtractPlugin({
+        filename: '[name].css',
+        chunkFilename: '[id].css',
+      }),
+    ]
+  }
 };
