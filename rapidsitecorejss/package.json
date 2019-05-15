@@ -6,7 +6,9 @@
   "config": {
     "appName": "rapidsitecorejss",
     "rootPlaceholders": [
-      "jss-main"
+      "jss-main",
+	    "jss-header",
+      "jss-footer"
     ],
     "sitecoreDistPath": "/dist/rapidsitecorejss",
     "sitecoreConfigPath": "/App_Config/Include/zzz",
