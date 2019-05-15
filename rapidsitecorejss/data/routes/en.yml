@@ -59,6 +59,19 @@ placeholders:
               <li>Delete <code>/data/dictionary/*.yml</code></li>
             </ol>
           </div>
+  - componentName: ImageComponent
+    fields:
+      title: Welcome to Image Component
+      description: This is an example of image component
+      imageFields:
+        src: /data/media/img/jss_logo.png
+        alt: Sitecore Logo
+  - componentName: VideoComponent
+    fields:
+      title: Welcome to Video Component
+      src: "https://www.youtube.com/embed/IeLqT75N8V0"
+      width: "450"
+      height: "450"
   - componentName: RichTextEditor
     fields:
       heading: Rich Text Editor Example
