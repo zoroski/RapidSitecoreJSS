@@ -1,15 +1,16 @@
 import React from 'react';
 import { Text, Image } from '@sitecore-jss/sitecore-jss-react';
+import { Container, Col, Row } from 'bootstrap-4-react'
 
 const ImageComponent = (props) => (
-  <div>
-    <div>
+  <Container>
+    <Row>
       <Text field={props.fields.title} />
-    </div>
-    <div>
+    </Row>
+    <Row>
       <Image field={props.fields.imageFields} />
-    </div>
-  </div>
+    </Row>
+  </Container>
 );
 
 export default ImageComponent;
