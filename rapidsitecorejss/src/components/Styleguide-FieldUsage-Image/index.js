@@ -21,7 +21,7 @@ const StyleguideFieldUsageImage = (props) => (
     */}
     <p>Advanced image (not editable)</p>
     <Image
-      field={props.fields.sample2}
+      field={props.fields.sample1}
       editable={false}
       imageParams={{ mw: 100, mh: 50 }}
       height="50"
