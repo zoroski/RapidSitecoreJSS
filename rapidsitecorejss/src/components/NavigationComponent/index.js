@@ -10,15 +10,15 @@ import logoUrl from '../../assets/sc_logo.png';
 const rootUrl = '/';
 const links = [
   {
-    text: 'Login',
+    text: 'Home',
     url: '/login'
   },
   {
-    text: 'Search',
+    text: 'Calendar',
     url: '/search'
   },
   {
-    text: 'Home',
+    text: 'About us',
     url: '/search'
   }
 ];
