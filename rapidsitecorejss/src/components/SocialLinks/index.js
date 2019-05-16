@@ -11,7 +11,7 @@ const SocialLinks = (props) => {
     <div>
       <p><Text field={heading}/></p>
       {
-        urls.map( (link, index)  => <SocialIcon url={link.fields.url.value} key={index}/> )
+        urls.map( (link, index)  => <SocialIcon url={link.fields.url.value} fgColor="#fff" key={index}/> )
       }
     </div>
   );
