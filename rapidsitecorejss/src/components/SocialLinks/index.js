@@ -6,7 +6,6 @@ const SocialLinks = (props) => {
   const urls = props.fields.urlList;
   const heading = props.fields.heading;
 
-  console.log('urls',props);
   return (
     <div>
       <p><Text field={props.fields.heading}/></p>
