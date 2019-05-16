@@ -12,7 +12,6 @@ export default function(manifest) {
     icon: SitecoreIcon.DocumentTag,
     fields: [
       { name: 'title', type: CommonFieldTypes.SingleLineText },
-      { name: 'imageField', type: CommonFieldTypes.Image },
     ],
     /*
     If the component implementation uses <Placeholder> or withPlaceholder to expose a placeholder,
