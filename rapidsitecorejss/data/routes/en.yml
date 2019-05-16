@@ -23,6 +23,13 @@ placeholders:
   - componentName: HeadlineTitleBanner
     fields:
       heading: RapidSiteCoreJSS
+  - componentName: SocialFollow
+    fields:
+      urlList:
+      - id: styleguide-content-list-field-shared-1
+      - id: styleguide-content-list-field-shared-2
+        # - url: Hello, world!
+        # - url: lol
   - componentName: ThemeToggle
     fields:
       heading: Hello, world!
