@@ -1,0 +1,6 @@
+id: SocialLinkInstagram
+displayName: Instagram Social Link
+# Template defines the available fields.
+template: SocialLinkDefinition
+fields:
+  url: http://instagram.com/euromoneyplc

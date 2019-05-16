@@ -60,8 +60,13 @@ placeholders:
   jss-footer:
     - componentName: SocialLinks
       fields:
-        heading: "Follow us!"
+        heading: "Follow Us!!"
+        urlList: 
+        - id: SocialLinkTwitter
+        - id: SocialLinkFacebook
+        - id: SocialLinkInstagram
+        - id: SocialLinkLinkedin
+        - id: SocialLinkPinterest
     - componentName: FooterLinksComponent
       fields:
         copyright: "Copyright © Your Website"
-

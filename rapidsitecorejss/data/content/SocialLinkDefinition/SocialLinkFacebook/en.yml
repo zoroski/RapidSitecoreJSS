@@ -1,0 +1,6 @@
+id: SocialLinkFacebook
+displayName: Facebook Social Link
+# Template defines the available fields.
+template: SocialLinkDefinition
+fields:
+  url: http://facebook.com/euromoneyplc
