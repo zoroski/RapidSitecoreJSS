@@ -1,7 +1,5 @@
 import React from 'react';
 import { Placeholder, VisitorIdentification } from '@sitecore-jss/sitecore-jss-react';
-import { NavLink } from 'react-router-dom';
-import { withNamespaces } from 'react-i18next';
 import Helmet from 'react-helmet';
 
 // Using bootstrap is completely optional. It's used here to provide a clean layout for samples,
@@ -36,7 +34,7 @@ const Layout = ({ route }) => (
     <VisitorIdentification />
 
   
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <Placeholder name="jss-header" rendering={route} />
       </nav>
    

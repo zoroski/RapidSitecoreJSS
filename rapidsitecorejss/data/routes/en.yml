@@ -21,24 +21,16 @@ fields:
 placeholders:
   jss-header:
     - componentName: NavigationComponent
-      fields:
-        url: /
-        links: [
-          {
-            text: 'Login',
-            url: '/login'
-          },
-          {
-            text: 'Search',
-            url: '/search'
-          }
-        ]
   jss-main:
   - componentName: Banner
     fields:
       image:
         src: /data/media/img/image1.jpg
         alt: banner
+  jss-footer:
+      - componentName: FooterLinksComponent
+        fields:
+          copyright: "Copyright © Your Website"
   # - componentName: HeadlineTitleBanner
   #   fields:
   #     heading: RapidSiteCoreJSS
@@ -74,8 +66,4 @@ placeholders:
   #   fields:
   #     heading: Cta Button
   #     link: https://www.w3schools.com/bootstrap/bootstrap_buttons.asp
-  # jss-footer:
-  #     - componentName: FooterLinksComponent
-  #       fields:
-  #         copyright: "Copyright © Your Website"
 

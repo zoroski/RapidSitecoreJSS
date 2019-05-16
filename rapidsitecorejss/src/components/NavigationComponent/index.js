@@ -1,6 +1,5 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import { Text, Image } from '@sitecore-jss/sitecore-jss-react';
 
 // const dropdownLink = (id) => 
 //   <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
