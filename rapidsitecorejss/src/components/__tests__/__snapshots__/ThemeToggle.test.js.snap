@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div>
+  <p>
+    Toggle theme
+  </p>
+  <input
+    name="toggle"
+    onChange={[Function]}
+    type="radio"
+  />
+  <input
+    name="toggle"
+    onChange={[Function]}
+    type="radio"
+  />
+  Heading
+</div>
+`;
