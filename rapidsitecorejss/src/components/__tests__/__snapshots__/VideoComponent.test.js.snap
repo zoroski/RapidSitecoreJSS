@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="row"
+  >
+    Title
+  </div>
+  <div
+    className="row"
+  >
+    <iframe
+      className="myClassname"
+      height="360"
+      id="myId"
+      src="https://youtu.be/IeLqT75N8V0"
+      style={
+        Object {
+          "display": "initial",
+          "position": "relative",
+        }
+      }
+      width="640"
+    />
+  </div>
+</div>
+`;
