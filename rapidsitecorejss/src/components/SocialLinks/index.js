@@ -8,9 +8,9 @@ const SocialLinks = (props) => {
 
   return (
     <div>
-      <p><Text field={props.fields.heading}/></p>
+      <p><Text field={heading}/></p>
       {
-        urls.map( link, index  => <SocialIcon url={link.fields.url.value} key={index}/> )
+        urls.map( (link, index)  => <SocialIcon url={link.fields.url.value} key={index}/> )
       }
     </div>
   );
