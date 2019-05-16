@@ -2,18 +2,18 @@
 
 exports[`renders correctly 1`] = `
 <div
-  className="container"
+  class="container"
 >
   <div
-    className="row"
+    class="row"
   >
     Title
   </div>
   <div
-    className="row"
+    class="row"
   >
     <iframe
-      className="myClassname"
+      class="myClassname"
       height="360"
       id="myId"
       src="https://youtu.be/IeLqT75N8V0"
