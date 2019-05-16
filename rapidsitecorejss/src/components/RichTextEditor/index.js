@@ -5,8 +5,10 @@ import { withSitecoreContext } from '@sitecore-jss/sitecore-jss-react';
 const RichTextEditor = (props) => {
   //Embedded style only until we have a base theme
   return (
-    <div style={{margin:'15px',padding:'15px',border:'1px solid #CCC'}}>
+    <div className="container">
+    <div style={{padding:'15px',border:'1px solid #CCC'}}>
       <RichText field={props.fields.body} />
+    </div>
     </div>
   );
 }

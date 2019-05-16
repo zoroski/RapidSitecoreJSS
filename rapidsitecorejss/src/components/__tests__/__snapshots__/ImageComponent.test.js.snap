@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  class="banners row my-2"
+>
+  <img
+    class="col-12 img-fluid banner"
+    src="/media/image.png"
+  />
+</div>
+`;

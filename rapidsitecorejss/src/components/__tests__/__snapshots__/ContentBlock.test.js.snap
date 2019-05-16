@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+Array [
+  <h2
+    class="display-4"
+  >
+    Take note: Even the Reserve Bank of Australia needs sub-editors
+  </h2>,
+  <div
+    class="contentDescription"
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "Central banks have a lot to do, so it’s no surprise things get overlooked once in a while.",
+      }
+    }
+  />,
+]
+`;
