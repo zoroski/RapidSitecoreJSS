@@ -3,12 +3,12 @@
 exports[`renders correctly 1`] = `
 Array [
   <h2
-    className="display-4"
+    class="display-4"
   >
     Take note: Even the Reserve Bank of Australia needs sub-editors
   </h2>,
   <div
-    className="contentDescription"
+    class="contentDescription"
     dangerouslySetInnerHTML={
       Object {
         "__html": "Central banks have a lot to do, so it’s no surprise things get overlooked once in a while.",

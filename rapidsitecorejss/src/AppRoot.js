@@ -24,9 +24,6 @@ export const ThemeContext = React.createContext('light');
 // SitecoreContext: provides component resolution and context services via withSitecoreContext
 // Router: provides a basic routing setup that will resolve Sitecore item routes and allow for language URL prefixes.
 class AppRoot extends React.Component {
-  constructor(props) {
-    super(props);
-  }
   render() {
     const { path, Router, graphQLClient } = this.props;
     const routeRenderFunction = (props) => <RouteHandler route={props} />;
