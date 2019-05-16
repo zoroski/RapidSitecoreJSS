@@ -22,9 +22,9 @@ placeholders:
   jss-header:
     - componentName: NavigationComponent
   jss-main:
-  - componentName: SocialLink
+  - componentName: SocialLinks
     fields:
-      heading: text
+      heading: "Follow us!"
   - componentName: Banner
     fields:
       image:
