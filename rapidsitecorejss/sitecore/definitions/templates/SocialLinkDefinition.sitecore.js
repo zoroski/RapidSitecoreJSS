@@ -1,5 +1,5 @@
 // eslint-disable-next-line no-unused-vars
-import { CommonFieldTypes, Manifest } from './node_modules/@sitecore-jss/sitecore-jss-manifest';
+import { CommonFieldTypes, Manifest } from '@sitecore-jss/sitecore-jss-manifest';
 
 /**
  * This is the data template for an individual _item_ in the Styleguide's Content List field demo.

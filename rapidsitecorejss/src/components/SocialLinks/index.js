@@ -3,19 +3,15 @@ import { Text } from '@sitecore-jss/sitecore-jss-react';
 import { SocialIcon } from 'react-social-icons';
 
 const SocialLinks = (props) => {
-  const urls = [
-                  "http://twitter.com/euromoneyplc", 
-                  "http://facebook.com/euromoneyplc",
-                  "http://instagram.com/euromoneyplc",
-                  "http://linkedin.com/euromoneyplc",
-                  "http://pinterest.com/euromoneyplc"
-              ];
+  const urls = props.fields.urlList;
   const heading = props.fields.heading;
+
+  console.log('urls',props);
   return (
     <div>
       <p><Text field={props.fields.heading}/></p>
       {
-        urls.map( url  => <SocialIcon url={url} /> )
+        urls.map( link  => <SocialIcon url={link.fields.url.value} /> )
       }
     </div>
   );

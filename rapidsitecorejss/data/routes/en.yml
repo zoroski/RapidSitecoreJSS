@@ -65,5 +65,8 @@ placeholders:
       fields:
         heading: "Follow Us!!"
         urlList: 
-          - id: SocialLinkTwitter
-
+        - id: SocialLinkTwitter
+        - id: SocialLinkFacebook
+        - id: SocialLinkInstagram
+        - id: SocialLinkLinkedin
+        - id: SocialLinkPinterest

@@ -1,5 +1,6 @@
 // eslint-disable-next-line no-unused-vars
 import { CommonFieldTypes, SitecoreIcon, Manifest } from '@sitecore-jss/sitecore-jss-manifest';
+import packageJson from '../../../package.json';
 
 /**
  * Adds the SocialLinks component to the disconnected manifest.
@@ -24,7 +25,7 @@ export default function(manifest) {
       // unless they can refer to any item in the whole site.	
         source: `dataSource=/sitecore/content/${	
           packageJson.config.appName	
-        }/Content/SocialLinkDefinition`, 
+        }/content/SocialLinkDefinition`, 
       },
     ],
     /*
