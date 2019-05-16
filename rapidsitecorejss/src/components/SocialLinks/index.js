@@ -4,6 +4,7 @@ import { SocialIcon } from 'react-social-icons';
 
 const SocialLinks = (props) => {
   const urls = props.fields.urlList;
+  console.log(urls);
   const heading = props.fields.heading;
 
   return (

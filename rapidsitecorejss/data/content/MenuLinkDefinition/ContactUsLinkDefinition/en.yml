@@ -1,0 +1,7 @@
+id: ContactUsLink
+displayName: Contact us
+# Template defines the available fields.
+template: MenuLinkDefinition
+fields:
+  text: Contact us
+  url: /contact-us

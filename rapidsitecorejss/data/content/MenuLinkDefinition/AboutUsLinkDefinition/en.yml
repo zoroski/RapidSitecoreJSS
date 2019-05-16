@@ -1,0 +1,7 @@
+id: AboutUsLink
+displayName: About us
+# Template defines the available fields.
+template: MenuLinkDefinition
+fields:
+  text: About us
+  url: /about-us
