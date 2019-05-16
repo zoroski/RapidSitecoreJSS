@@ -20,7 +20,7 @@ const CTAComponent = (props) => (
   <div class="container-fluid">
     <div class="row">
       <div class="col-md-5" style={pStyle}>
-        <h4 class="light"><img src="images/bird.svg" alt="" class="bird-svg" /> Get your Super Early Bird tickets now!</h4>
+        <h4 class="light"><img src="images/bird.svg" alt="" className="bird-svg" /> Get your Super Early Bird tickets now!</h4>
       </div>
       <div class="col-md-7 text-right" style={pStyle}>
       <a href={`${props.fields.link.value}`} target="_blank"  className="btn btn-primary">
