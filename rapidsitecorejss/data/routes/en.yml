@@ -63,4 +63,33 @@ placeholders:
   #     heading: Rich Text Editor Example
   #     body: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 
+  # - componentName: ImageComponent
+  #   fields:
+  #     title: Welcome to Image Component
+  #     description: This is an example of image component
+  #     imageFields:
+  #       src: /data/media/img/image1.jpg
+  #       alt: banner
+  # - componentName: VideoComponent
+  #   fields:
+  #     title: Welcome to Video Component
+  #     src: "https://www.youtube.com/embed/qk8JZcisYpY"
+  #     width: "450"
+  #     height: "450"
+  # - componentName: RichTextEditor
+  #   fields:
+  #     body: <img src="https://www.euromoneycdn.com/~/media/20026BA6AA964B37AB30F73239AF5029.png"/> <p><a href="www.euromoney.com">See more</a></p>  <p><b>Lorem Ipsum</b> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p> 
+  # - componentName: LogoComponent
+  #   fields:
+  #     imageFields:
+  #       src: /data/media/img/jss_logo.png
+  #       alt: Sitecore Logo
+  # - componentName: CTAComponent
+  #   fields:
+  #     heading: Cta Button
+  #     link: https://www.w3schools.com/bootstrap/bootstrap_buttons.asp
+  # jss-footer:
+  #     - componentName: FooterLinksComponent
+  #       fields:
+  #         copyright: "Copyright © Your Website"
 
