@@ -15,7 +15,7 @@ const SocialLinks = (props) => {
     <div>
       <p><Text field={props.fields.heading}/></p>
       {
-        urls.map( url  => <SocialIcon url="http://twitter.com/euromoneyplc" /> )
+        urls.map( url  => <SocialIcon url={url} /> )
       }
     </div>
   );
