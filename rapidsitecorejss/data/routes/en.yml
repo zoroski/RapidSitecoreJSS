@@ -24,7 +24,9 @@ placeholders:
   jss-main:
   - componentName: SocialLinks
     fields:
-      heading: "Follow us!"
+      heading: "Follow Us!!"
+      urlList: 
+        - id: SocialLinkTwitter
   - componentName: Banner
     fields:
       image:

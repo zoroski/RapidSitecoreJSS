@@ -1,0 +1,6 @@
+id: SocialLinkTwitter
+displayName: Twitter Social Link
+# Template defines the available fields.
+template: SocialLinkDefinition
+fields:
+  url: http://twitter.com/euromoneyplc
