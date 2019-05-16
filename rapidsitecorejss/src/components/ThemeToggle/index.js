@@ -1,22 +1,34 @@
 import React from 'react';
-import { Text } from '@sitecore-jss/sitecore-jss-react';
-
+import { withSitecoreContext } from '@sitecore-jss/sitecore-jss-react'
 
 const themes = ['primary', 'minor'];
 
-const onThemeToggle = (value, t) => {
-  console.log(value, t);
+const ThemeToggle = (props) => {
+  const { sitecoreContext } = props;
+
+  // actually it's bad, temporary & doesn't work as u expect. Need to extend context setter to update the app after updating the context
+  if (!sitecoreContext.theme) {
+    sitecoreContext.theme = themes[0];
+  }
+
+  const change = (newTheme) => {
+    console.log(sitecoreContext.theme, newTheme)
+    sitecoreContext.theme = newTheme;
+  };
+
+  return (
+    <div>
+      <p>Current theme: {sitecoreContext.theme}</p>
+      {
+        themes.map(theme => 
+          <label key={theme} style={{ marginRight: '10px '}}>
+            {theme}
+            <input type="radio" name="theme" value={theme} checked={theme === sitecoreContext.theme} onChange={() => change(theme)} style={{ marginLeft: '5px' }} />
+          </label>
+        )
+      }
+    </div>
+  )
 };
 
-
-
-const ThemeToggle = (props) => (
-  <div>
-    <p>Toggle theme</p>
-    <input type="radio" name="toggle" onChange={onThemeToggle} />
-    <input type="radio" name="toggle" onChange={onThemeToggle} />
-    <Text field={props.fields.heading} />
-  </div>
-);
-
-export default ThemeToggle;
+export default withSitecoreContext()(ThemeToggle);
