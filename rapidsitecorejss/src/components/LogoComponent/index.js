@@ -1,5 +1,5 @@
 import React from 'react';
-import { Text, Image } from '@sitecore-jss/sitecore-jss-react';
+import { Image } from '@sitecore-jss/sitecore-jss-react';
 
 const LogoComponent = (props) => (
   <div>
