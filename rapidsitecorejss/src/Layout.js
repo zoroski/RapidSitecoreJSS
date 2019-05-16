@@ -35,10 +35,11 @@ const Layout = ({ route }) => (
     */}
     <VisitorIdentification />
 
-    <div className="header">
+  
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <Placeholder name="jss-header" rendering={route} />
-    </div>
-
+      </nav>
+   
     {/* root placeholder for the app, which we add components to using route data */}
     <div className="container">
       <Placeholder name="jss-main" rendering={route} />
