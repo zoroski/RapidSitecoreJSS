@@ -1,0 +1,6 @@
+id: SocialLinkPinterest
+displayName: Pinterest Social Link
+# Template defines the available fields.
+template: SocialLinkDefinition
+fields:
+  url: http://pinterest.com/euromoneyplc
