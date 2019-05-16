@@ -27,6 +27,9 @@ placeholders:
          alt: Sitecore Logo
   - componentName: NavigationComponent
   jss-main:
+  - componentName: SocialLinks
+    fields:
+      heading: "Follow us!"
   - componentName: Banner
     fields:
       image:
