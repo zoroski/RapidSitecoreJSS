@@ -29,6 +29,11 @@ placeholders:
         fields:
           title: "Test"
   jss-main:
+  - componentName: Banner
+    fields:
+      image:
+        src: /data/media/img/image1.jpg
+        alt: banner
   - componentName: HeadlineTitleBanner
     fields:
       heading: RapidSiteCoreJSS
