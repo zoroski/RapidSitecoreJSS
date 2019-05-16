@@ -37,13 +37,6 @@ placeholders:
   - componentName: HeadlineTitleBanner
     fields:
       heading: RapidSiteCoreJSS
-  - componentName: ImageComponent
-    fields:
-      title: Welcome to Image Component
-      description: This is an example of image component
-      imageFields:
-        src: /data/media/img/image1.jpg
-        alt: banner
   - componentName: VideoComponent
     fields:
       title: Welcome to Video Component
