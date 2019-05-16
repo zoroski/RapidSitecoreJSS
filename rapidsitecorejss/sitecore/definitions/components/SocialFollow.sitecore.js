@@ -20,7 +20,7 @@ export default function(manifest) {
       // unless they can refer to any item in the whole site.	
         source: `dataSource=/sitecore/content/${	
           packageJson.config.appName	
-        }/Content/Styleguide/ContentListField`, 
+        }/Content/SocialLinkDefinition`, 
       },
     ],
     /*

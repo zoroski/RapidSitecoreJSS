@@ -1,5 +1,5 @@
 // eslint-disable-next-line no-unused-vars
-import { CommonFieldTypes, Manifest } from '@sitecore-jss/sitecore-jss-manifest';
+import { CommonFieldTypes, Manifest } from './node_modules/@sitecore-jss/sitecore-jss-manifest';
 
 /**
  * This is a standalone _base template_ that is inherited by components in the styleguide that need to

@@ -35,10 +35,7 @@ placeholders:
   - componentName: SocialFollow
     fields:
       urlList:
-      - id: styleguide-content-list-field-shared-1
-      - id: styleguide-content-list-field-shared-2
-        # - url: Hello, world!
-        # - url: lol
+      - id: styleguide-content-list-field-shared
   - componentName: ImageComponent
     fields:
       title: Welcome to Image Component

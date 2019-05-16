@@ -1,6 +1,6 @@
 id: social-link-definition-shared
-displayName: Social Link
+displayName: Twitter ocial Link
 # Template defines the available fields.
-template: Styleguide-ItemLink-Item-Template
+template: SocialLink-Item-Template
 fields:
   url: http://twitter.com/jaketrent

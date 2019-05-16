@@ -7,7 +7,7 @@ import { CommonFieldTypes, Manifest } from './node_modules/@sitecore-jss/sitecor
  */
 export default function(manifest) {
   manifest.addTemplate({
-    name: 'Styleguide-ContentList-Item-Template',
-    fields: [{ name: 'textField', type: CommonFieldTypes.SingleLineText }],
+    name: 'SocialLink-Item-Template',
+    fields: [{ name: 'url', type: CommonFieldTypes.SingleLineText }],
   });
 }
