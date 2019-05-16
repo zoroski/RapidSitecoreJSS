@@ -27,7 +27,7 @@ placeholders:
          alt: Sitecore Logo
   - componentName: NavigationComponent
     fields:
-      title: lslsl    
+      title: lslllsl    
   jss-main:
   - componentName: Banner
     fields:
