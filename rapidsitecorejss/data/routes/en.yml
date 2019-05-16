@@ -58,7 +58,7 @@ placeholders:
     fields:
       heading: Cta Button
       link: https://www.w3schools.com/bootstrap/bootstrap_buttons.asp
-    jss-footer:
+  jss-footer:
       - componentName: FooterLinksComponent
         fields:
           copyright: "Copyright © Your Website"
