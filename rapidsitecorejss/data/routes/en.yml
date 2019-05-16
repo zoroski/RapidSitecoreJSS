@@ -20,30 +20,19 @@ fields:
 # root placeholder names are defined in the package.json config section (required for Sitecore deployment)
 placeholders:
   jss-header:
-<<<<<<< HEAD
-      - componentName: NavigationComponent
-        fields:
-          url: /
-          links: [
-            {
-              text: 'Login',
-              url: '/login'
-            },
-            {
-              text: 'Search',
-              url: '/search'
-            }
-          ]
-=======
-  - componentName: LogoComponent
-    fields:    
-      imageFields:
-         src: /data/media/img/jss_logo.png
-         alt: Sitecore Logo
-  - componentName: NavigationComponent
-    fields:
-      title: lslsl    
->>>>>>> origin/master
+    - componentName: NavigationComponent
+      fields:
+        url: /
+        links: [
+          {
+            text: 'Login',
+            url: '/login'
+          },
+          {
+            text: 'Search',
+            url: '/search'
+          }
+        ]
   jss-main:
   - componentName: Banner
     fields:
