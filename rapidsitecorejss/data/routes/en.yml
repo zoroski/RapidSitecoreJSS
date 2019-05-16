@@ -29,14 +29,14 @@ placeholders:
     fields:
       title: lslllsl    
   jss-main:
+  - componentName: HeadlineTitleBanner
+    fields:
+      heading: RapidSiteCoreJSS
   - componentName: Banner
     fields:
       image:
         src: /data/media/img/image1.jpg
         alt: banner
-  - componentName: HeadlineTitleBanner
-    fields:
-      heading: RapidSiteCoreJSS
   - componentName: VideoComponent
     fields:
       title: Welcome to Video Component
