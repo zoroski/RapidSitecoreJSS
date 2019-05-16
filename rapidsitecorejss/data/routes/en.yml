@@ -51,16 +51,13 @@ placeholders:
         remaining essentially unchanged. It was popularised in the 1960s with the release of 
         Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
         publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-        <p align="right"><a href="www.euromoney.com">See more</a></p>
+        <p align="right"><a href="https://www.euromoney.com">See more</a></p>
 
   - componentName: CTAComponent
     fields:
       heading: Cta Button
       link: https://www.w3schools.com/bootstrap/bootstrap_buttons.asp
   jss-footer:
-    - componentName: FooterLinksComponent
-      fields:
-        copyright: "Copyright © Your Website"
     - componentName: SocialLinks
       fields:
         heading: "Follow Us!!"
@@ -70,3 +67,6 @@ placeholders:
         - id: SocialLinkInstagram
         - id: SocialLinkLinkedin
         - id: SocialLinkPinterest
+    - componentName: FooterLinksComponent
+      fields:
+        copyright: "Copyright © Your Website"

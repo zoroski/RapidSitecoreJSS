@@ -43,9 +43,9 @@ const Layout = ({ route }) => (
       <Placeholder name="jss-main" rendering={route} />
    
 
-    <div className="footer">
+      <footer className="container-fluid py-4 bg-dark text-white text-center">
       <Placeholder name="jss-footer" rendering={route} />
-    </div>
+       </footer>
   </React.Fragment>
 );
 
