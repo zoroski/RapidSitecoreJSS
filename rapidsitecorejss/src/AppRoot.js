@@ -5,6 +5,11 @@ import { ApolloProvider } from 'react-apollo';
 import componentFactory from './temp/componentFactory';
 import factory, { wrapFactory } from './lib/SitecoreContextFactory';
 import RouteHandler from './RouteHandler';
+import ApolloClient from "apollo-boost";
+
+const client = new ApolloClient({
+  uri: "http://rsd15052019.azurewebsites.net/"
+});
 
 // This is the main JSX entry point of the app invoked by the renderer (server or client rendering).
 // By default the app's normal rendering is delegated to <RouteHandler> that handles the loading of JSS route data.
@@ -27,8 +32,9 @@ class AppRoot extends React.Component {
   render() {
     const { path, Router, graphQLClient } = this.props;
     const routeRenderFunction = (props) => <RouteHandler route={props} />;
+    
     return (
-      <ApolloProvider client={graphQLClient}>
+      <ApolloProvider client={client}>
         <SitecoreContext componentFactory={componentFactory} contextFactory={/*wrapFactory(() => this.forceUpdate())*/factory}>
           <Router location={path}>
             <Switch>

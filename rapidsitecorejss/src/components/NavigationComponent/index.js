@@ -6,8 +6,7 @@ import { NavLink } from 'react-router-dom';
 //       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 //       Dropdown
 //   </a>;
-import logoUrl from '../../assets/sc_logo.png';
-const rootUrl = '/';
+
 const links = [
   {
     text: 'Home',
@@ -15,11 +14,11 @@ const links = [
   },
   {
     text: 'Calendar',
-    url: '/search'
+    url: '/calendar'
   },
   {
     text: 'About us',
-    url: '/search'
+    url: '/about'
   }
 ];
 

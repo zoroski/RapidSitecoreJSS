@@ -38,6 +38,7 @@ placeholders:
   - componentName: HeadlineTitleBanner
     fields:
       heading: RapidSiteCoreJSS
+  - componentName: ArticleList
   - componentName: ThreeColumnsGrid
     placeholders:
       columns:
