@@ -1,0 +1,7 @@
+id: NewsLink
+displayName: News
+# Template defines the available fields.
+template: MenuLinkDefinition
+fields:
+  text: News
+  url: /news

@@ -26,6 +26,11 @@ placeholders:
          src: /data/media/img/jss_logo.png
          alt: Sitecore Logo
   - componentName: NavigationComponent
+    fields:
+      linkList: 
+        - id: AboutUsLink
+        - id: ContactUsLink
+        - id: NewsLink
   jss-main:
   - componentName: HeadlineTitleBanner
     fields:

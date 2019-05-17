@@ -34,7 +34,7 @@ const Layout = ({ route }) => (
     <VisitorIdentification />
 
   
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <nav className="navbar navbar-expand-lg navbar-light bg-dark text-white ">
       <Placeholder name="jss-header" rendering={route} />
       </nav>
    

@@ -7,43 +7,40 @@ import { NavLink } from 'react-router-dom';
 //       Dropdown
 //   </a>;
 
-const links = [
-  {
-    text: 'Home',
-    url: '/login'
-  },
-  {
-    text: 'Calendar',
-    url: '/calendar'
-  },
-  {
-    text: 'About us',
-    url: '/about'
-  }
-];
+// const links = [
+//   {
+//     text: 'Home',
+//     url: '/login'
+//   },
+//   {
+//     text: 'Calendar',
+//     url: '/calendar'
+//   },
+//   {
+//     text: 'About us',
+//     url: '/about'
+//   }
+// ];
+
+const sStyle = {
+ color:"white"
+};
 
 const NavigationComponent = (props) => {
+  const links = props.fields.linkList;
   return (
-  <nav className="navbar navbar-expand-lg navbar-light bg-light w-100">
+  <nav className="navbar navbar-expand-lg navbar-light bg-dark w-100">
    
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul className="navbar-nav w-100 justify-content-end">
+        <ul className="navbar-nav w-100 justify-content-end" >
           {
             !links ? null : links.map(link => {
-              const isActive = link.url === window.location.pathname;
-              // const id = link.url + i;
-
               return (
-                <li key={link.text} className={'nav-item' + (isActive ? ' active' : '') + (link.list ? ' dropdown' : '')}
-                  // {
-                  //   link.list ? ` id="${id}" role="button"
-                  //   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"`
-                  //   : ''
-                  // }  
+                <li key={link.fields.text.value}  className='nav-item'
                 >
-                    <NavLink to={link.url} className={'nav-link' + (link.isDisabled ? ' disabled' : '')}>
-                      {link.text}
-                      {isActive ? <span className="sr-only">(current)</span> : null}
+                    <NavLink to={link.fields.url.value} style={sStyle} className='nav-link'>
+                      {link.fields.text.value}
+                      <span className="sr-only">(current)</span>
                     </NavLink>
                     {/* {
                       link.list ? 
